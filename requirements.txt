@@ -1,1 +1,2 @@
 requests-oauthlib>=0.4.2
+-e git://github.com/idan/oauthlib@514cad74bde4cd7781b496155058a79507245798#egg=oauthlib
