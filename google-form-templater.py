@@ -19,3 +19,17 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
+
+"""Create new Google Forms based on existing templates.
+
+http://www.google.com/forms/about/
+https://developers.google.com/drive/
+"""
+
+
+if __name__ == '__main__':
+    import argparse
+
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+
+    args = parser.parse_args()
